@@ -1,68 +1,69 @@
-###############################################################
-# 🚀 FULL SETUP & RUN GUIDE (BEGINNER-FRIENDLY)
-###############################################################
+#############################################
+# ✅ Setup & Run Instructions (Beginner-Friendly)
+#############################################
 
-###############################################################
-# 1️⃣ INSTALL NODE.JS (LTS VERSION)
-###############################################################
-# 👉 Download & Install: https://nodejs.org
-# 👉 After installation, verify:
+# --------------------------------------------------
+# 1. Install Node.js (LTS version)
+# --------------------------------------------------
+## 👉 Download from: https://nodejs.org
+## After installation, verify versions:
 node -v
 npm -v
 
-###############################################################
-# 2️⃣ CLONE THE PROJECT REPOSITORY
-###############################################################
+# --------------------------------------------------
+# 2. Clone the Repository
+# --------------------------------------------------
 git clone <your-repo-link>
 cd studentswap-backend
 
-###############################################################
-# 3️⃣ INITIALIZE PROJECT
-###############################################################
+# --------------------------------------------------
+# 3. Initialize Project
+# --------------------------------------------------
 npm init -y
 
-###############################################################
-# 4️⃣ INSTALL REQUIRED DEPENDENCIES
-###############################################################
+# --------------------------------------------------
+# 4. Install Dependencies
+# --------------------------------------------------
 
-# 🔹 Core backend
+## 🔹 Core backend
 npm install express cors body-parser dotenv
 
-# 🔹 Database
+## 🔹 Database
 npm install sqlite3 better-sqlite3 mongoose
 
-# 🔹 Authentication & Security
+## 🔹 Authentication & Security
 npm install bcryptjs jsonwebtoken uuid
 
-# 🔹 File Uploads
+## 🔹 File Uploads
 npm install multer
 
-# 🔹 Real-time & Communication
+## 🔹 Real-time & Communication
 npm install socket.io
 
-# 🔹 QR Code Support
+## 🔹 QR Code Support
 npm install qrcode
 
-# 🔹 Developer tools (auto reload)
+## 🔹 Dev tools (for auto-reload)
 npm install --save-dev nodemon
 
-###############################################################
-# 5️⃣ START THE SERVER
-###############################################################
+# --------------------------------------------------
+# 5. Start the Server
+# --------------------------------------------------
 
-# 👉 Option A: Simple run
+## Option A: Simple run
 node server.js
 
-# 👉 Option B: Auto-reload (recommended)
+## Option B: Auto-reload with nodemon (recommended)
 npx nodemon server.js
 
-###############################################################
-# 6️⃣ EXPECTED TERMINAL OUTPUT
-###############################################################
+# --------------------------------------------------
+# 6. Expected Output
+# --------------------------------------------------
+## Terminal should show:
 # Server is running on port 3000
 # Connected to SQLite database
 
-###############################################################
-# 7️⃣ ACCESS SERVER IN BROWSER
-###############################################################
-# 👉 http://localhost:3000/
+# --------------------------------------------------
+# 7. Access the Server in Browser
+# --------------------------------------------------
+## 👉 Open: http://localhost:3000/
