@@ -1,54 +1,68 @@
-#############################################
-# ✅ Setup & Run Instructions (Beginner-Friendly)
-#############################################
+###############################################################
+# 🚀 FULL SETUP & RUN GUIDE (BEGINNER-FRIENDLY)
+###############################################################
 
-## 1. Install Node.js (LTS version)
-# Download from: https://nodejs.org
-# After installation, verify:
+###############################################################
+# 1️⃣ INSTALL NODE.JS (LTS VERSION)
+###############################################################
+# 👉 Download & Install: https://nodejs.org
+# 👉 After installation, verify:
 node -v
 npm -v
 
-## 2. Clone the Repository
+###############################################################
+# 2️⃣ CLONE THE PROJECT REPOSITORY
+###############################################################
 git clone <your-repo-link>
 cd studentswap-backend
 
-# 3. Initialize Project
+###############################################################
+# 3️⃣ INITIALIZE PROJECT
+###############################################################
 npm init -y
 
-# 4. Install Dependencies
+###############################################################
+# 4️⃣ INSTALL REQUIRED DEPENDENCIES
+###############################################################
 
-# Core backend
+# 🔹 Core backend
 npm install express cors body-parser dotenv
 
-# Database
+# 🔹 Database
 npm install sqlite3 better-sqlite3 mongoose
 
-# Authentication & Security
+# 🔹 Authentication & Security
 npm install bcryptjs jsonwebtoken uuid
 
-# File Uploads
+# 🔹 File Uploads
 npm install multer
 
-# Real-time & Communication
+# 🔹 Real-time & Communication
 npm install socket.io
 
-# QR Code Support
+# 🔹 QR Code Support
 npm install qrcode
 
-# Dev tools (for auto-reload)
+# 🔹 Developer tools (auto reload)
 npm install --save-dev nodemon
 
-# 5. Start the Server
+###############################################################
+# 5️⃣ START THE SERVER
+###############################################################
 
-# Option A: Simple run
+# 👉 Option A: Simple run
 node server.js
 
-# Option B: Auto-reload with nodemon (recommended)
+# 👉 Option B: Auto-reload (recommended)
 npx nodemon server.js
 
-# 6. Expected Output (Terminal will show)
+###############################################################
+# 6️⃣ EXPECTED TERMINAL OUTPUT
+###############################################################
 # Server is running on port 3000
 # Connected to SQLite database
 
-# 7. Access the server in browser:
+###############################################################
+# 7️⃣ ACCESS SERVER IN BROWSER
+###############################################################
 # 👉 http://localhost:3000/
