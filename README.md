@@ -2,13 +2,13 @@
 # ✅ Setup & Run Instructions (Beginner-Friendly)
 #############################################
 
-# 1. Install Node.js (LTS version)
+## 1. Install Node.js (LTS version)
 # Download from: https://nodejs.org
 # After installation, verify:
 node -v
 npm -v
 
-# 2. Clone the Repository
+## 2. Clone the Repository
 git clone <your-repo-link>
 cd studentswap-backend
 
